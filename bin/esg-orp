@@ -68,7 +68,7 @@
 #              script that has the definition of checked_get(),
 #              stop_tomcat(), start_tomcat(), $workdir,
 
-esg_dist_url=${esg_dist_url:-"http://198.128.245.140/dist"}
+esg_dist_url=${esg_dist_url:-${esg_dist_url_root:-"http://dist.ceda.ac.uk/esgf/dist"}}
 
 esg_orp_version=${esg_orp_version:-"1.1.0"}
 
